@@ -5,7 +5,7 @@ from fastapi.requests import Request
 import json
 import sqlite3
 
-app = FastAPI(debug=True)
+app = FastAPI(debug=False)
 db = Database("test.db")
 
 @app.get("/")

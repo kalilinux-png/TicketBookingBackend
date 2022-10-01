@@ -32,8 +32,8 @@ if __name__=="__main__":
     #      MOVNAME            CHAR(50)     NOT NULL,
     #      PRICE        INT,
     #      SEATS         INT NOT NULL);''')
-    output = db.execute_command('''INSERT INTO ORDERBOOK (NAME,MOVNAME,PRICE,SEATS) \
-      VALUES ('shubham', 32, 'California', 20000.00 )''')
+    # output = db.execute_command('''INSERT INTO ORDERBOOK (NAME,MOVNAME,PRICE,SEATS) \
+    #   VALUES ('shubham', 32, 'California', 20000.00 )''')
     output = db.execute_command('''SELECT * FROM ORDERBOOK''')
     for k in output:
         print(k)

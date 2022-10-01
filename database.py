@@ -26,12 +26,15 @@ class Database:
 if __name__=="__main__":
     db = Database('test.db')
     # uncomment if you have not created the table
-    # db.execute_command('''CREATE TABLE ORDERBOOK
-    #      (ID INT AUTO_INCREMENT ,
-    #      NAME           TEXT    NOT NULL,
-    #      MOVNAME            CHAR(50)     NOT NULL,
-    #      PRICE        INT,
-    #      SEATS         INT NOT NULL);''')
+    try:
+        db.execute_command('''CREATE TABLE ORDERBOOK
+            (ID INT AUTO_INCREMENT ,
+            NAME           TEXT    NOT NULL,
+            MOVNAME            CHAR(50)     NOT NULL,
+            PRICE        INT,
+            SEATS         INT NOT NULL);''')
+    except Exception as Error:
+        print("Exception Handled",Error)
     # output = db.execute_command('''INSERT INTO ORDERBOOK (NAME,MOVNAME,PRICE,SEATS) \
     #   VALUES ('shubham', 32, 'California', 20000.00 )''')
     output = db.execute_command('''SELECT * FROM ORDERBOOK''')

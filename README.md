@@ -34,3 +34,9 @@ Developers  Contact :
 [Sushil Lodhi LinkedIn](https://www.linkedin.com/in/sushil-lodhi-653a4b208/)
 
 [Sushil Lodhi Github](https://github.com/Sushil08102002)
+
+Project Manager : 
+
+[Yumna Afzal LinkedIn](https://linkedin.com) (Not External Link Provided For Now)
+
+[Yumna Afzal Github ]()(Same As Above 👆)

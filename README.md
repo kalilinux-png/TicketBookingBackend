@@ -2,8 +2,7 @@
 
 This project Is A Simulation of Ticket Booking System Used In Real World Movie Ticket Booking
 
-
-## Installation 
+## Installation
 
 1. Install Python 3.0+
 2. Install Git (*Optional) Or Download Zip File
@@ -30,7 +29,7 @@ Developers  Contact :
 
 [Shubham yadav LinkedIn](https://www.linkedin.com/in/shubham-yadav-85194b203/)
 
-[shubham yadav Github](https://github.com/kaliinux-png)
+[shubham yadav Github](https://github.com/kalilinux-png)
 
 [Sushil Lodhi LinkedIn](https://www.linkedin.com/in/sushil-lodhi-653a4b208/)
 

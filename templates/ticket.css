@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/02/79/23/49/1000_F_279234996_kJhcULhaJsfQJdryAaJmfhmuzwpOjNtK.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%
+   
+    
+}
+.reciept{
+    margin-top: 67px;
+    
+    padding: 26px;
+}
+.reciept table td{
+    padding: 5px;
+    vertical-align: top;
+ }
+ 
+ .reciept table tr td:nth-child(2){
+    text-align: right;
+
+ }
+ .reciept{
+    max-width: 800px;
+    padding: 30px;
+    margin: auto;
+    border: 2px solid red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    background: wheat;
+    margin-top: 50px;
+}
+
+.reciept table{
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+}
+.reciept table tr td h4{
+    text-align: center;
+}

@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: red;
+}
+.dropdown{
+    position: relative;
+    margin-top: 100px;
+    width: 300px;
+    height: 40px;
+    background: palevioletred;
+}
+.dropdown ::before{
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    z-index: 10000;
+    width: 8px;
+    height: 8px;
+    border: 2px saddlebrown;
+    border-top: 2px black;
+    border-right: 2px black;
+    transform: rotate(-45deg);
+    transition: 0.5s;
+    pointer-events: none;
+}
+.dropdown.active ::before{
+    top: 22px;
+    transform: rotate(-225deg);
+
+}
+.dropdown input{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: wheat;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 20px black;
+}
+
+.dropdown .option{
+    position: relative;
+    top: 70px;
+    width: 100%;
+    background: yellow;
+    box-shadow: 0 30px 30px black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: none;
+}
+.dropdown.active .option{
+    display: block;
+}
+
+.dropdown .option div{
+    padding: 12px 20px;
+    cursor: pointer;
+
+}
+.dropdown .option div:hover{
+    background: blue;
+    color: aqua;
+}
+.dropdown .option div ion-icon{
+    position: relative;
+    top: 4px;
+    font-size: 1.2em;
+}
+.lk .btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+   

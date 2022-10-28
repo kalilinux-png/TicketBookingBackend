@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+   background-image: url("https://myviewsonbollywood.files.wordpress.com/2020/04/1960a.jpg");
+   background-size: cover;
+   background-position: center;
+   box-sizing: border-box;
+   height: 50%;
+   width: 100%;
+}
+.back{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+}
+.axe{
+    position: relative;
+    background:rgb(222, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 34px;
+    padding: 54px;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 566px;
+    margin-left: 400px;
+    width: 50%;
+    height: 65rem;
+}
+.axe .anchor1 a {
+    color: rgb(3, 3, 62);
+    text-decoration: none;
+    margin-bottom: 24px;
+}
+
+.anchor1 a i {
+    margin-bottom: 24px;
+    margin-right: 50px;
+}
+#cont1{
+    display: flex;
+    align-items: center;
+    color: rgb(3, 3, 62);
+    text-decoration: none;
+}
+.container h2{
+   color: rgb(26, 10, 50);
+   text-align: center;
+}
+.axe .dropdown{
+    margin-bottom:56px ;
+   
+}
+.axe .dropdown1{
+   margin-bottom: 56px;
+    
+}
+.axe .dropdown2{
+    margin-bottom: 56px;
+    
+}
+.axe .dropdown3{
+    margin-bottom: 56px;
+}
+.axe .dropdown4{
+    margin-bottom: 56px;
+    
+}
+.axe .dropdown5{
+    margin-bottom:56px ;
+   
+}
+.axe .dropdown6{
+    margin-bottom:56px ;
+   
+}
+.axe .dropdown7{
+    margin-bottom:56px ;
+   
+}
+
+.axe .hero{
+    margin-bottom:56px;
+    margin-right: 64px;
+    margin-left: 30px;
+    background:white;
+    border-radius: 34px;
+    width: 500px;
+    height: 50px;
+}
+.axe .btn{
+    margin-right: 64px;
+    margin-left: 30px;
+    background:white;
+    border-radius: 34px;
+    width: 100px;
+    height: 50px;
+}
+.uk{
+    display: block;
+    
+}
+#movies{
+    margin-right: 64px;
+    margin-left: 30px;
+    background:white;
+    border-radius: 34px;
+    width: 500px;
+    height: 50px;
+}    
+
+label { color: white; font-weight: bold; width: 150px; text-align: center; margin-left: 83px; margin-right: 43px; }
+input{border-radius: 34px; background: white; width:500px;height: 48px;}
+
+#movies1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 64px;
+    margin-left: 30px;
+    background:white;
+    border-radius: 34px;
+    width: 500px;
+    height: 50px;
+    border-color: blue;
+}
+#movies2{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 64px;
+        margin-left: 30px;
+        background:white;
+        border-radius: 34px;
+        width: 500px;
+        height: 50px;
+}
+#movies3{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 64px;
+        margin-left: 30px;
+        background:white;
+        border-radius: 34px;
+        width: 500px;
+        height: 50px;
+}
+
+#movies4{
+        margin-bottom: 0px;
+        margin-right: 64px;
+        margin-left: 30px;
+        background:white;
+        border-radius: 34px;
+        width: 500px;
+        height: 50px;
+}
+
+#movies5{
+    margin-bottom: 0px;
+        margin-right: 64px;
+        margin-left: 30px;
+        background:white;
+        border-radius: 34px;
+        width: 500px;
+        height: 50px;
+}
+#movies6{
+    margin-bottom: 0px;
+        margin-right: 64px;
+        margin-left: 30px;
+        background:white;
+        border-radius: 34px;
+        width: 500px;
+        height: 50px;
+}
+#movies7{
+    margin-bottom: 0px;
+        margin-right: 64px;
+        margin-left: 30px;
+        background:white;
+        border-radius: 34px;
+        width: 500px;
+        height: 50px;
+}
+
+
+.anchor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anchor .nextpage{
+    margin-right: 64px;
+    margin-left: 30px;
+    background:white;
+    border-radius: 34px;
+    width: 67%;
+    height: 43px;
+}
+

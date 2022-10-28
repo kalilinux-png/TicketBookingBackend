@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+}
+body{
+    background-image: url('https://img.freepik.com/premium-vector/cinema-cartoon-entertainment-conceptual-collections-with-symbols-cinema-theatre-megaphone-masks-popcorn-glasses-vector_80590-6693.jpg?w=2000');
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+
+.head h1{
+    padding: 50px;
+    margin: 50px 60px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px red;
+    
+    padding:34px;
+    margin:34px;
+    height:200px;
+    gap:60px;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container h1 span {
+    font-weight: 300;
+    color: black;
+}
+.btn{
+    background-color: plum;
+    border-radius: 100px;
+    padding: 15px 32px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.btn{
+    background-color: plum;
+    border-radius: 100px;
+    padding: 15px 32px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px black;
+    margin: 46px 400px;
+    padding: 46px 75px;
+    width:33%;
+    border-radius: 28px;
+    border-color: 2px purple;
+    height: 299px;
+}
+.form-group input{
+   text-align: center;
+   display: block;
+   width: 654px;
+   padding: 1px;
+   margin: 11px auto;
+   font-size: 24px;
+   color: blue;
+   background-color: yellow;
+   border-radius: 16px;
+   text-decoration-color: blueviolet;
+}
+.form-group ul li{
+    width:12px;
+    margin: 15px;
+    padding: 15px;
+}
+.form-group ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+.form-group ul li a:hover{
+    background: rebeccapurple;
+    border-radius: 3px;
+}
+.sub-menu{
+    display: none;
+}
+.form-group ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: purple;
+ }
+.container2 h1{
+    color: black;
+}
+.container2 button{
+    display: block;
+    width: 24%;
+    margin: auto;
+}
+
+.h1-primary{
+    font-size: 1.8rem;
+    padding: 12px;
+}
+.rec{
+    margin: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 200px;
+    margin: 143px 196px;
+    background-color:plum;
+}
+.rec .box{
+    border: 2px solid yellow;
+    background: blanchedalmond;
+    margin: 123px 196px;
+    padding:104px;
+}
+.rec li{
+    display: block;
+    margin: 10px;
+}

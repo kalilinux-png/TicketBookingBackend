@@ -29,7 +29,6 @@ function scrap_values() {
         date:date
     }
     console.log(json_object)
-    prompt("wait")
     return json_object
    
    }
@@ -38,8 +37,8 @@ function call_api(json_data) {
  const options = {method: 'POST', body: JSON.stringify(json_data)};
 
 fetch('http://127.0.0.1:5000/upload/user_data/', options)
-  .then(response => response.json())
-  .then(response => console.log(response))
+  .then(response => response.text())
+  .then(response => {document.body.innerHTML = response})
   .catch(err => console.error(err));
 
 }

@@ -25,7 +25,7 @@ def greet():
 
 @app.get("/test")
 def test():
-    return templates
+    return "test working"
 
 
 @app.post(
@@ -36,11 +36,11 @@ async def add_user_data(request: Request):
     user_data = await request.body()
     user_data = json.loads(user_data.decode("utf-8"))
     print("request body", user_data)
-    raw_string = f"INSERT INTO ORDERBOOK (date,movie_name,theather_name,place_name,no_of_seats_value,type_of_food_name,time_value,dimension_name) VALUES ('{user_data['date']}','{user_data['movie_name']}', '{user_data['theather_name']}','{user_data['place_name']}','{user_data['no_of_seats_value']}','{user_data['type_of_food_name']}','{user_data['time_value']}','{user_data['dimension_name']}' );" #sql query to insert data in already created order table
-    try:
-        db_response = db.execute_command(raw_string)
-    except Exception as error:
-        print("Exception Occured",error)
+    # raw_string = f"INSERT INTO ORDERBOOK (date,movie_name,theather_name,place_name,no_of_seats_value,type_of_food_name,time_value,dimension_name) VALUES ('{user_data['date']}','{user_data['movie_name']}', '{user_data['theather_name']}','{user_data['place_name']}','{user_data['no_of_seats_value']}','{user_data['type_of_food_name']}','{user_data['time_value']}','{user_data['dimension_name']}' );" #sql query to insert data in already created order table
+    # try:
+        # db_response = db.execute_command(raw_string)
+    # except Exception as error:
+        # print("Exception Occured",error)
     return templates.TemplateResponse(
         "ticket.html",
         {

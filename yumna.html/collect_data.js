@@ -38,13 +38,12 @@ function call_api(json_data) {
 
 fetch('http://127.0.0.1:5000/upload/user_data/', options)
   .then(response => response.text())
-  .then(response => { ;document.body.innerHTML = response;setTimeout(()=>{}))
+  .then(response => document.body.innerHTML = response)
   .catch(err => console.error(err));
-    alert("HI")
-}
+  }
 
 function main() { 
     alert("Inside main function")
     json_data = scrap_values()
     call_api(json_data)
-}
+    } 

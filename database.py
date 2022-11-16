@@ -44,6 +44,6 @@ if __name__ == "__main__":
         print("Exception Handled", Error)
     # output = db.execute_command('''INSERT INTO ORDERBOOK (NAME,MOVNAME,PRICE,SEATS) \
     #   VALUES ('shubham', 32, 'California', 20000.00 )''')
-    # output = db.execute_command("DROP TABLE ORDERBOOK")
-    # for k in output:
-    #     print(k)
+    output = db.execute_command("SELECT * FROM ORDERBOO")
+    for k in output:
+        print(k)
